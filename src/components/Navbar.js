@@ -68,10 +68,10 @@ function Navbar() {
         {/* Mobile navbar */}
         {menu && (
           <div className='bg-white'>
-            <ul className='md:hidden flex flex-col h-screen items-center justify-center space-y-3 text-xl'>
+            <ul className='md:hidden flex flex-col h-screen items-center pt-4 space-y-3 text-xl bg-gray-50 '>
               {
                 navItems.map(({ id, text, to }) => (
-                  <li key={id} className='hover:scale-105 duration-200 font-semibold cursor-pointer'>
+                  <li key={id} className='hover:scale-105 duration-200 font-semibold cursor-pointer  border-green-800 text-green-500'>
                     {/* <Link to={to} onClick={() => setMenu(false)}>{text}</Link> */}
                     <Link 
                     onClick={() => setMenu(!menu)}

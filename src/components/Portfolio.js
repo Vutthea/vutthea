@@ -6,6 +6,9 @@ import htmlLogo from '../assets/images/html.jpg'; // Correct the extension here
 import cssLogo from '../assets/images/css.png';
 import javaScriptLogo from '../assets/images/javaScript-logo.png'; // Correct the file name here if necessary
 import xamppLogo from '../assets/images/Xampp.png'; // Match the case here
+import CLogo from '../assets/images/C.png';
+import Cplus from '../assets/images/C++.png';
+import java from '../assets/images/java.png';
 
 function Portfolio() {
   const cardItems = [
@@ -44,6 +47,22 @@ function Portfolio() {
       logo: xamppLogo,
       name: 'XAMPP',
     },
+    {
+      id:8,
+      logo:CLogo,
+      name: 'C',
+    },
+    {
+      id:9,
+      logo: Cplus,
+      name: 'C++',
+    },
+    {
+      id:10,
+      logo: java,
+      name: 'Java',
+    }
+
   ];
 
   return (

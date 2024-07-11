@@ -83,8 +83,8 @@ function Home() {
                 </div>
                  </div>
              </div>
-            <div className='md:w-1/2 md:ml-48 md:mt-20 mt-8 order-1'>
-                <img src="./1.jpg" className='rounded-full w-[250px] h-[250px] sm:w-[450px] sm:h-[450px] mx-auto' alt=""/>
+            <div className='md:w-1/2 md:ml-48 md:mt-20 mt-8 order-2'>
+                <img src="./1.jpg" className=' w-[250px] h-[250px] sm:w-[450px] sm:h-[450px] mx-auto' alt=""/>
             </div>
         </div>
     </div>
