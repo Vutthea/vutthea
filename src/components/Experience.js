@@ -65,9 +65,9 @@ function Experience() {
             And then about framework i can user React.js and Tailwindcss for front-end.So now i can to learn
              Back-end from myself focuse on Node.js, Express and MySQLfor database.
         </p>
-        <div className='grid grid-cols-2 md:grid-cols-5 gap-7 my-3 pt-4' >
+        <div className='grid grid-cols-2 md:grid-cols-5 gap-6 my-3 pt-8' >
           {cardItems.map(({ id, logo, name }) => (
-            <div className='flex flex-col items-center justify-center  border-[2px] rounded-[10px] md:w-[200px] md-h[200px] p-1 cursor-pointer hover:scale-110 duration-300' key={id}>
+            <div className='flex flex-col items-center justify-center  border-[2px] rounded-[10px] h-[200px] md:w-[200px] md-h[200px] p-1 cursor-pointer hover:scale-110 duration-300' key={id}>
               <img src={logo} className='w-[120px]  rounded-full ' alt={name} />
               <div>
                 <div className=''>{name}</div> 

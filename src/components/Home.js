@@ -46,19 +46,19 @@ function Home() {
                     <h1 className='font-bold text-green-600'>Available on</h1>
                     <ul className='flex space-x-5'>
                         <li>
-                            <a href="https://web.facebook.com/photo?fbid=909042144362265&set=pcb.909042164362263&_rdc=1&_rdr" target="_blank">
+                            <a href="https://web.facebook.com/seng.vutthea.9" target="_blank">
                             {""}
                              <FaFacebook  className='text-2xl cursor-pointer'/>
                             </a>
                         </li>
                         <li> 
-                            <a href="https://www.instagram.com/">
+                            <a href="https://www.instagram.com/s_vutthea/">
                             {""}
                               <FaInstagramSquare className='text-2xl cursor-pointer'/>
                             </a>
                         </li>
                         <li> 
-                            <a href="vuttheaseng@gmail.com">
+                            <a href="https://mail.google.com/mail/u/0/#inbox">
                             {""}
                             <BiLogoGmail className='text-2xl cursor-pointer'/> 
                             </a>

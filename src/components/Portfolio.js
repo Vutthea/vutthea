@@ -72,13 +72,13 @@ function Portfolio() {
         <span className="underline font-semibold">Featured project</span>
         <div className='grid grid-cols-l md:grid-cols-4 gap-3 my-5'>
           {cardItems.map(({ id, logo, name }) => (
-            <div className='md:w-[300px] md:h-[300px] border-[2px] rounded-lg shadow-lg p-1 cursor-pointer hover:scale-110 duration-300' key={id}>
+            <div className='md:w-[300px] md:h-[300px] border-[2px] rounded-lg shadow-lg p-1 cursor-pointer hover:scale-105 duration-75 mt-[10px] ' key={id}>
               <img src={logo} 
               className='w-[120px]  h-[120px] p-1 rounded-full border-[2px]  ' alt={name} />
               <div>
                 <div className='px-2 font-bold text-xl mb-2  '>{name}</div>
                 <p className='px-2 text-gray-700'>
-                 Loren ipsum,dolor sit amet consecteyur adipisicing elit
+                 This is language and framework for coding. 
                 .</p>
               </div>
               
